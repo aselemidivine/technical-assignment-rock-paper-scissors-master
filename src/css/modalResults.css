@@ -1,0 +1,59 @@
+:root {
+	--result-duration: 1s;
+    --light-color: #f4f4f4;
+}
+
+#results {
+    display: none; /*This is because we dont want to display it out yet */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+ 
+.result-content{
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    border-radius: 10px;
+    padding: 28rem;
+    background: var(--light-color);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: resultopen;
+    animation-duration: var(--result-duration);    
+}  
+
+.result-content h1 {
+    margin-bottom: 1rem;
+}
+
+.result-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+@keyframes resultopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width:500px) {
+    .result-content {
+        /* text-align: left;
+        margin: auto;
+        width: 50px;
+        border-radius: 10px; */
+        /* padding: 28rem; */
+        padding: 2rem;
+    }
+
+}
