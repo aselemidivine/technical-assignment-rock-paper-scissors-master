@@ -84,7 +84,6 @@ body {
 	background: var(--primary-color); /* these are css customed property*/
 	color: #fff;
 }
-
 .header {
 	text-align: center;
 	margin: 1rem 0;

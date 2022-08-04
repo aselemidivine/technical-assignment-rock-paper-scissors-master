@@ -47,14 +47,3 @@
     }
 }
 
-@media(max-width:500px) {
-    .result-content {
-        /* text-align: left;
-        margin: auto;
-        width: 50px;
-        border-radius: 10px; */
-        /* padding: 28rem; */
-        padding: 2rem;
-    }
-
-}
