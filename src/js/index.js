@@ -83,7 +83,6 @@ function displayWinner(winner, computerChoice) {
         <h1 class="text-win"> You Win!</h1>
         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
         <p>Computer Chose <strong>${computerChoice}</strong></p>
-        
         `;
 
     } else if(winner === 'computer') { // We want to increment the computer score
