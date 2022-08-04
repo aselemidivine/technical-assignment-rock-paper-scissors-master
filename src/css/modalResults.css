@@ -5,7 +5,7 @@
 
 #results {
     display: none; /*This is because we dont want to display it out yet */
-    position: fixed;
+    position: absolute; 
     z-index: 1;
     left: 0;
     top: 0;
