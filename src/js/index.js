@@ -136,4 +136,4 @@ window.addEventListener('click', clearModalResult);
 restart.addEventListener('click', restartGame);
 
 
-// input from will be included in the next version
+// input form will be included in the next version
