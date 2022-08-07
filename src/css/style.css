@@ -9,6 +9,7 @@
 
 }
 
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -29,6 +30,7 @@ body {
 	padding: 0 2rem;
 	text-align: center;
 }
+
 
 .start-btn {
 	background: #35486b; 
